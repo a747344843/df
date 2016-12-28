@@ -1,0 +1,25 @@
+{
+  "name": "MyFrame PHP",
+  "description":"PHP Framework",
+  "type":"Framework",
+  "keywords":[
+    "PHP","PHP Framework"
+  ],
+  "require":{
+    "php":">= 5.3.0",
+    "filp/whoops":"*",
+    "symfony/var-dumper":"*",
+    "illuminate/database": "*",
+    "twig/twig":"*",
+    "duncan3dc/blade": "*",
+    "noahbuscher/macaw": "dev-master",
+    "xiaoler/blade":"*"
+  },
+  "autoload":{
+    "classmap":[
+      "app/controllers",
+      "app/models",
+      "assists"
+    ]
+  }
+}
